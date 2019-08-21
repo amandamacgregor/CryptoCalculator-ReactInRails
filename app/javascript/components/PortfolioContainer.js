@@ -22,15 +22,15 @@ class PortfolioContainer extends Component {
         // this.setState({
         //     [e.target.name]: e.target.value
         // })
-        
-        axios.post('http://18.220.234.156/search', {
+        axios.post('/search', {
             search: e.target.value
         })
         .then( (data) => {
-            debugger
+            console.log(data)
+            // debugger
         })
         .catch( (data) => {
-            debugger
+            // debugger
         })
         console.log(this.state.name)
     }
