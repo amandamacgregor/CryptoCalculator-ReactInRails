@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*Using RoR and React, as well as pinging outside API for up to date value of various cryptocurrencies, following the tutorial https://www.youtube.com/watch?v=dpYPLUO3QcI I built out a 98% functioning portfolio app.  .reduce is causing major block when working with props, so despite a few hours troubleshooting I can't get a TOTAL portfolio value to print (TypeError).
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I didn't style this myself - I used the css code straight from the source.
