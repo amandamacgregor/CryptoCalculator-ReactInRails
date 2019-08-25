@@ -26,3 +26,4 @@ class Portfolio extends Component {
 }
 
 export default Portfolio
+//had a terrible time getting Total to work, but now is. Must have been something dumb like a typo.
