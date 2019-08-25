@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Search from './Search'
 import Calculate from './Calculate'
+import Portfolio from './Portfolio'
 import axios from 'axios'
 
 
@@ -95,8 +96,13 @@ class PortfolioContainer extends Component {
                     handleChange={this.handleChange} />
             }
         return(
-            <div>
-                {searchOrCalculate}
+            <div className="grid">
+                <div className="left">
+                    {searchOrCalculate}
+                </div>
+                <div className="right">
+                    <Portfolio portfolio={this.state.portfolio}/>
+                </div>
             </div>
         )
     }
